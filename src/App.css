@@ -1,3 +1,13 @@
 .font-loader {
   font-family: 'Josefin Sans';
 }
+
+.bg-footer{
+  background: #96be8c;
+  color: white;
+}
+
+.bg-navbar {
+  background: #629460;
+  color: white;
+}
