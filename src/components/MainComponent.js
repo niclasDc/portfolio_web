@@ -16,13 +16,15 @@ class Main extends Component{
 
     render() {
         return(
-            <div>
+            <div style={{backgroundColor: '#F8F6F5' }}>
                 <Header/>
                 <Routes>
                     <Route path="/home" element={<Home/>}/>
                     <Route path="*"element={<Navigate to="/home" replace />}/>
                 </Routes>
-                <Footer/>
+                <div>
+                    <Footer/>
+                </div>
             </div>
         );
     }
