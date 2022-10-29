@@ -13,7 +13,7 @@ import reportWebVitals from './reportWebVitals';
 
 WebFont.load({
    google: {
-       families:['Josefin Sans']
+       families:['Josefin Sans', 'Tajawal']
    }
 });
 

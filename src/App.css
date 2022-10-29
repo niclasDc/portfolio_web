@@ -1,5 +1,6 @@
 .font-loader {
-  font-family: 'Josefin Sans';
+  font-family: 'Tajawal';
+  font-style: normal;
 }
 
 .bg-footer{
@@ -47,6 +48,19 @@
   min-height:400px;
 }
 
+.row-content-about {
+  margin:0px auto;
+  padding: 10px 0px 10px 0px;
+  min-height:50px;
+}
+
+.row-content-groups-cards {
+  margin:0px auto;
+  padding: 0px 70px 20px 70px;
+  min-height:100px;
+}
+
+
 .footer{
   background-color: #D1C4E9;
   margin:0px auto;
@@ -62,4 +76,8 @@
 
 .bg-image-jumb {
   background-image: url("/public/assets/images/image_code_1.jpg");
+}
+
+.bg-image-about {
+  background-image: url("/public/assets/images/desk_study.jpg");
 }

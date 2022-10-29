@@ -14,7 +14,7 @@ function Header(){
 
     return(
         <header>
-            <div className="font-loader row container d-flex" >
+            <div className="row container d-flex" style={{fontSize: "16px", fontWeight: "bold"}}>
                 <MDBNavbar fixed='top' expand='lg' dark className="bg-navbar">
                     <MDBContainer fluid>
                         <MDBNavbarBrand href="/home">Nicolas: Analyst & Dev</MDBNavbarBrand>
@@ -36,7 +36,10 @@ function Header(){
                                     </MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/aboutus'>Sobre Mi</MDBNavbarLink>
+                                    <MDBNavbarLink href='/aboutus'>Sobre Mí</MDBNavbarLink>
+                                </MDBNavbarItem>
+                                <MDBNavbarItem>
+                                    <MDBNavbarLink href='/portfolio'>Portafolio</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
                                     <MDBNavbarLink href='/contactus'>Contacto</MDBNavbarLink>

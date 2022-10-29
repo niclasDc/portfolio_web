@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 function Footer(){
     return(
-        <div>
+        <div style={{fontWeight: "bold", fontSize: "18px"}}>
             <MDBFooter  className=" bg-footer text-white text-md-start text-center">
                 <MDBContainer className="p-4 pb-0">
                     <section className='text-md-center justify-content-center border-bottom p-4'>
@@ -37,7 +37,7 @@ function Footer(){
                                     <Link className="text-white" to="/home">Inicio</Link>
                                 </li>
                                 <li>
-                                    <Link className="text-white" to="/aboutus">Sobre Mi</Link>
+                                    <Link className="text-white" to="/aboutus">Sobre Mí</Link>
                                 </li>
                                 <li>
                                     <Link className="text-white" to="/contactus">Contacto</Link>

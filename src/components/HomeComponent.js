@@ -3,7 +3,7 @@ import React from "react";
 function Home(){
     return(
       <div>
-          <div className="jumbotron font-loader">
+          <div className="jumbotron" style={{fontSize: "20px"}}>
               <div className="row row-content d-flex justify-content-center">
                   <div className="col-12 bg-image-jumb">
                   </div>
@@ -20,7 +20,6 @@ function Home(){
                   </div>
               </div>
           </div>
-
       </div>
     );
 }
