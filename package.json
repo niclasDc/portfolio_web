@@ -2,6 +2,7 @@
   "name": "portfolio_web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://niclasdc.github.io/portfolio_web/build",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@fortawesome/fontawesome-free": "^6.2.0",
