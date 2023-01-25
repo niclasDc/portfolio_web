@@ -8,16 +8,16 @@ import {
     MDBNavbarToggler
 } from "mdb-react-ui-kit";
 
-function Header(){
+function Header() {
 
     const [showNav, setShowNav] = useState(false);
 
-    return(
+    return (
         <header>
             <div className="row container d-flex" style={{fontSize: "16px", fontWeight: "bold"}}>
                 <MDBNavbar fixed='top' expand='lg' dark className="bg-navbar">
                     <MDBContainer fluid>
-                        <MDBNavbarBrand href="/home">Nicolas: Analyst & Dev</MDBNavbarBrand>
+                        <MDBNavbarBrand href="/">Nicolas: Analyst & Dev</MDBNavbarBrand>
                         <MDBNavbarToggler
                             type='button'
                             data-target='#navbar'
@@ -26,12 +26,12 @@ function Header(){
                             aria-label='Toggle navigation'
                             onClick={() => setShowNav(!showNav)}
                         >
-                            <MDBIcon icon='bars' fas />
+                            <MDBIcon icon='bars' fas/>
                         </MDBNavbarToggler>
                         <MDBCollapse show={showNav} navbar>
                             <MDBNavbarNav className='mb-2 mb-lg-0 justify-content-end'>
                                 <MDBNavbarItem className='active'>
-                                    <MDBNavbarLink aria-current='page' href="/home">
+                                    <MDBNavbarLink aria-current='page' href="/">
                                         Inicio
                                     </MDBNavbarLink>
                                 </MDBNavbarItem>

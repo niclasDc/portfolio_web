@@ -34,7 +34,7 @@ function Footer(){
                             <h5>Menu</h5>
                             <ul className="list-unstyled mb-0">
                                 <li>
-                                    <Link className="text-white" to="/home">Inicio</Link>
+                                    <Link className="text-white" to="/">Inicio</Link>
                                 </li>
                                 <li>
                                     <Link className="text-white" to="/aboutus">Sobre Mí</Link>
