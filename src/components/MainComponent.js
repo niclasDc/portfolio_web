@@ -4,6 +4,7 @@ import {Navigate, Route, Routes} from "react-router-dom";
 import Home from "./HomeComponent";
 import Footer from "./FooterComponent";
 import About from "./AboutComponent";
+import Contact from "./ContactComponent";
 
 
 class Main extends Component{
@@ -22,6 +23,7 @@ class Main extends Component{
                 <Routes>
                     <Route path="/home" element={<Home/>}/>
                     <Route exact path="/aboutus" element={<About/>}/>
+                    <Route exact path="/contactus" element={<Contact/>}/>
                     <Route path="*"element={<Navigate to="/home" replace />}/>
                 </Routes>
                 <div>

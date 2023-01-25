@@ -54,7 +54,7 @@ function About(){
                                       <MDBCardBody>
                                           <MDBCardTitle>Front-End</MDBCardTitle>
                                           <MDBCardText>
-                                              React | CSS | Boostrap | HTML
+                                              React | CSS | TailwindCSS | Boostrap | HTML
                                           </MDBCardText>
                                       </MDBCardBody>
                                   </MDBCol>
