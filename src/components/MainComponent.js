@@ -21,10 +21,10 @@ class Main extends Component{
             <div style={{backgroundColor: '#F8F6F5'}}>
                 <Header/>
                 <Routes>
-                    <Route path="/home" element={<Home/>}/>
+                    <Route path="/" element={<Home/>}/>
                     <Route exact path="/aboutus" element={<About/>}/>
                     <Route exact path="/contactus" element={<Contact/>}/>
-                    <Route path="*"element={<Navigate to="/home" replace />}/>
+                    <Route path="*"element={<Navigate to="/" replace />}/>
                 </Routes>
                 <div>
                     <Footer/>
