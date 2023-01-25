@@ -2,22 +2,25 @@ import React from "react";
 import {MDBBtn, MDBCol, MDBContainer, MDBFooter, MDBIcon, MDBRow} from "mdb-react-ui-kit";
 import {Link} from "react-router-dom";
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <div style={{fontWeight: "bold", fontSize: "18px"}}>
-            <MDBFooter  className=" bg-footer text-white text-md-start text-center">
+            <MDBFooter className=" bg-footer text-white text-md-start text-center">
                 <MDBContainer className="p-4 pb-0">
                     <section className='text-md-center justify-content-center border-bottom p-4'>
-                        <MDBBtn outline color="light" floating className='m-1' href='https://github.com/niclasDc?tab=repositories' role='button'>
-                            <MDBIcon fab icon='github' />
+                        <MDBBtn outline color="light" floating className='m-1'
+                                href='https://github.com/niclasDc?tab=repositories' role='button'>
+                            <MDBIcon fab icon='github'/>
                         </MDBBtn>
 
-                        <MDBBtn outline color="light" floating className='m-1' href='https://www.instagram.com/niclas_o_0/' role='button'>
-                            <MDBIcon fab icon='instagram' />
+                        <MDBBtn outline color="light" floating className='m-1'
+                                href='https://www.instagram.com/niclas_o_0/' role='button'>
+                            <MDBIcon fab icon='instagram'/>
                         </MDBBtn>
 
-                        <MDBBtn outline color="light" floating className='m-1' href='https://www.linkedin.com/in/nicolas-alvarez-triana-872046157/' role='button'>
-                            <MDBIcon fab icon='linkedin-in' />
+                        <MDBBtn outline color="light" floating className='m-1'
+                                href='https://www.linkedin.com/in/nicolas-alvarez-triana-872046157/' role='button'>
+                            <MDBIcon fab icon='linkedin-in'/>
                         </MDBBtn>
                     </section>
 
@@ -63,7 +66,7 @@ function Footer(){
                 </MDBContainer>
 
                 <div className='text-center p-3 bg-navbar'>
-                    © 2020 Copyright: Nicolas Alvarez Triana
+                    Nicolas: Analyst & Dev
                 </div>
             </MDBFooter>
         </div>
