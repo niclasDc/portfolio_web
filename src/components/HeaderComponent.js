@@ -17,7 +17,7 @@ function Header() {
             <div className="row container d-flex" style={{fontSize: "16px", fontWeight: "bold"}}>
                 <MDBNavbar fixed='top' expand='lg' dark className="bg-navbar">
                     <MDBContainer fluid>
-                        <MDBNavbarBrand href="/">Nicolas: Analyst & Dev</MDBNavbarBrand>
+                        <MDBNavbarBrand href="/portfolio_web/build/">Nicolas: Analyst & Dev</MDBNavbarBrand>
                         <MDBNavbarToggler
                             type='button'
                             data-target='#navbar'
