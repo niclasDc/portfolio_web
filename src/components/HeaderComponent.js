@@ -7,6 +7,7 @@ import {
     MDBNavbarBrand, MDBNavbarItem, MDBNavbarLink, MDBNavbarNav,
     MDBNavbarToggler
 } from "mdb-react-ui-kit";
+import {Link} from "react-router-dom";
 
 function Header() {
 
@@ -31,18 +32,25 @@ function Header() {
                         <MDBCollapse show={showNav} navbar>
                             <MDBNavbarNav className='mb-2 mb-lg-0 justify-content-end'>
                                 <MDBNavbarItem className='active'>
-                                    <MDBNavbarLink aria-current='page' href="/">
-                                        Inicio
+                                    <MDBNavbarLink className="text-white">
+                                        <Link className="text-white" to="/portfolio_web/build/">Inicio</Link>
                                     </MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/portfolio_web/build/aboutus'>Sobre Mí</MDBNavbarLink>
+                                    <MDBNavbarLink>
+                                        <Link className="text-white" to="/portfolio_web/build/aboutus">Sobre Mí</Link>
+                                    </MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/portfolio_web/build/portfolio'>Portafolio</MDBNavbarLink>
+                                    <MDBNavbarLink>
+                                        <Link className="text-white"
+                                              to="/portfolio_web/build/portfolio">Portafolio</Link>
+                                    </MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/portfolio_web/build/contactus'>Contacto</MDBNavbarLink>
+                                    <MDBNavbarLink>
+                                        <Link className="text-white" to="/portfolio_web/build/contactus">Contacto</Link>
+                                    </MDBNavbarLink>
                                 </MDBNavbarItem>
                             </MDBNavbarNav>
                         </MDBCollapse>
