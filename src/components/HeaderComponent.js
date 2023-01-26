@@ -36,13 +36,13 @@ function Header() {
                                     </MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/aboutus'>Sobre Mí</MDBNavbarLink>
+                                    <MDBNavbarLink href='/portfolio_web/build/aboutus'>Sobre Mí</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/portfolio'>Portafolio</MDBNavbarLink>
+                                    <MDBNavbarLink href='/portfolio_web/build/portfolio'>Portafolio</MDBNavbarLink>
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
-                                    <MDBNavbarLink href='/contactus'>Contacto</MDBNavbarLink>
+                                    <MDBNavbarLink href='/portfolio_web/build/contactus'>Contacto</MDBNavbarLink>
                                 </MDBNavbarItem>
                             </MDBNavbarNav>
                         </MDBCollapse>

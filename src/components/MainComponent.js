@@ -6,25 +6,22 @@ import Footer from "./FooterComponent";
 import About from "./AboutComponent";
 import Contact from "./ContactComponent";
 
-
-class Main extends Component{
+class Main extends Component {
     constructor(props) {
         super(props);
 
-        this.state ={
-
-        }
+        this.state = {}
     }
 
     render() {
-        return(
+        return (
             <div style={{backgroundColor: '#F8F6F5'}}>
                 <Header/>
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route exact path="/aboutus" element={<About/>}/>
-                    <Route exact path="/contactus" element={<Contact/>}/>
-                    <Route path="*"element={<Navigate to="/" replace />}/>
+                    <Route path="/portfolio_web/build/" element={<Home/>}/>
+                    <Route exact path="/portfolio_web/build/aboutus" element={<About/>}/>
+                    <Route exact path="/portfolio_web/build/contactus" element={<Contact/>}/>
+                    <Route path="*" element={<Navigate to="/portfolio_web/build/" replace/>}/>
                 </Routes>
                 <div>
                     <Footer/>

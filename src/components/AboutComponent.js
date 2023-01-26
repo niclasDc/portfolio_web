@@ -7,6 +7,9 @@ import {
     MDBCol,
     MDBRow
 } from "mdb-react-ui-kit";
+import web_design from '../images/web-design.jpg';
+import analisis from '../images/analisis.jpg';
+
 
 function About() {
     return (
@@ -50,7 +53,7 @@ function About() {
                             <MDBCard style={{background: "#262924"}} className='text-white h-100'>
                                 <MDBRow className="g-0">
                                     <MDBCol md="7">
-                                        <MDBCardImage src="/assets/images/web-design.jpg" alt="web-design" fluid/>
+                                        <MDBCardImage src={web_design} alt="web-design" fluid/>
                                     </MDBCol>
                                     <MDBCol md="5">
                                         <MDBCardBody>
@@ -67,7 +70,7 @@ function About() {
                             <MDBCard style={{background: "#262924"}} className='text-white h-100'>
                                 <MDBRow className="g-0">
                                     <MDBCol md="7">
-                                        <MDBCardImage src="/assets/images/analisis.jpg" alt="analisis" fluid/>
+                                        <MDBCardImage src={analisis} alt="analisis" fluid/>
                                     </MDBCol>
                                     <MDBCol md="5">
                                         <MDBCardBody>

@@ -37,13 +37,13 @@ function Footer() {
                             <h5>Menu</h5>
                             <ul className="list-unstyled mb-0">
                                 <li>
-                                    <Link className="text-white" to="/">Inicio</Link>
+                                    <Link className="text-white" to="/portfolio_web/build/">Inicio</Link>
                                 </li>
                                 <li>
-                                    <Link className="text-white" to="/aboutus">Sobre Mí</Link>
+                                    <Link className="text-white" to="/portfolio_web/build/aboutus">Sobre Mí</Link>
                                 </li>
                                 <li>
-                                    <Link className="text-white" to="/contactus">Contacto</Link>
+                                    <Link className="text-white" to="/portfolio_web/build/contactus">Contacto</Link>
                                 </li>
                             </ul>
                         </MDBCol>
